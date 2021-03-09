@@ -1,5 +1,6 @@
 package main
 
+/*
 import (
 	"log"
 
@@ -20,7 +21,6 @@ func main() {
 	ch, err := conn.Channel()
 	failOnError(err, "Failed to open a channel")
 	defer ch.Close()
-
 	q, err := ch.QueueDeclare(
 		"hello", // name
 		false,   // durable
@@ -44,3 +44,4 @@ func main() {
 	failOnError(err, "Failed to publish a message")
 	log.Printf(" [x] Sent %s", body)
 }
+*/
